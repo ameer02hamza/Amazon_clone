@@ -1,0 +1,135 @@
+<app-headers></app-headers>
+<div class="container-fluid position-sticky overflow-hidden">
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide *ngFor="let image of images">
+            <div class="picsum-img-wrapper">
+                <img [src]="image" height="700px" alt="Random slide">
+            </div>
+        </ng-template>
+    </ngb-carousel>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-title>AmazonBasics</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="../../assets/Media/elec4.jpg">
+                <mat-card-actions class="card-action">
+                    <a href=""><button mat-button>see more</button></a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-title>AmazonBasics</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="../../assets/Media/elec1.jpg">
+                <mat-card-actions class="card-action">
+                    <a href=""><button mat-button>see more</button></a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-title>AmazonBasics</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="../../assets/Media/elec2.jpg">
+                <mat-card-actions class="card-action">
+                    <a href=""><button mat-button>see more</button></a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-title>AmazonBasics</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="../../assets/Media/elec3.jpg">
+                <mat-card-actions class="card-action">
+                    <a href=""><button mat-button>see more</button></a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div>
+<div class="row card-row wrap">
+    <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+        <mat-card class="card">
+            <mat-card-header>
+                <mat-card-title>AmazonBasics</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../../assets/Media/elec4.jpg">
+            <mat-card-actions class="card-action">
+                <a href=""><button mat-button>see more</button></a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+        <mat-card class="card">
+            <mat-card-header>
+                <mat-card-title>AmazonBasics</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../../assets/Media/elec1.jpg">
+            <mat-card-actions class="card-action">
+                <a href=""><button mat-button>see more</button></a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    
+    <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+        <mat-card class="card">
+            <mat-card-header>
+                <mat-card-title>AmazonBasics</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../../assets/Media/elec2.jpg">
+            <mat-card-actions class="card-action">
+                <a href=""><button mat-button>see more</button></a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 col-card">
+        <mat-card class="card">
+            <mat-card-header>
+                <mat-card-title>AmazonBasics</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="../../assets/Media/elec3.jpg">
+            <mat-card-actions class="card-action">
+                <a href=""><button mat-button>see more</button></a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>
+<div class="row card-row">
+    <div class="col-lg-12  ">
+        <mat-card class="single-card">
+            <mat-card-header>
+                <mat-card-title>Top Beauty & Personal Care products
+                </mat-card-title>
+                <a href="" class="link-info text-decoration-none position-sticky"><small>Shop now</small></a>
+            </mat-card-header>
+            <mat-card-content>
+               <div class="row">
+                   <div class="col-lg-3  card-content">
+                       <img src="../../assets/Media/card.jpg" alt="" srcset="">
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12 card-content">
+                       <img src="../../assets/Media/card1.jpg" alt="" srcset="">
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12 card-content">
+                       <img src="../../assets/Media/card2.jpg" alt="" srcset="">
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12 card-content">
+                       <img src="../../assets/Media/card5.jpg" alt="" srcset="">
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12 card-content">
+                       <img src="../../assets/Media/card5.jpg" alt="" srcset="">
+                   </div>
+               </div>
+               <mat-icon class="position-relative card-back">arrow_back_ios_new</mat-icon>
+                <mat-icon class="position-relative card-forward">arrow_forward_ios</mat-icon>
+              </mat-card-content>
+        </mat-card>
+    </div>
+</div>

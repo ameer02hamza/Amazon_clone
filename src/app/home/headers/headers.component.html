@@ -1,0 +1,118 @@
+<header class="header">  
+  <div class="container-fluid header-container">
+    
+    <div class="row">
+      <div class="col-md-1 col-sm-6 col-lg-1 col-focus-border">
+        <div class="header-image">
+          <img src="../../assets/Media/logo.png" class="header-image" height="12%" alt="">
+        </div>
+      </div>
+      <div class="col-md-1 col-sm-6 col-lg-1 col-focus-border">
+        <div class="row location-content">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-icon">
+            <span>
+              <mat-icon>
+                location_on
+              </mat-icon>
+            </span>
+          </div>
+          <div class="col-md-8 col-sm-8 col-lg-8 ">
+            <div class="header-location">
+              <span class="deliver">Deliver To</span>
+              <span class="country">Pakistan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 nav-fill">
+        <form>
+          <mat-form-field class="mat-select-field" appearance="outline">
+            <mat-select [formControl]="animalControl">
+              <mat-option *ngFor="let animal of animals" [value]="animal">
+                {{animal.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field class="mat-input" appearance="outline">
+            <input type="text" matInput>
+          </mat-form-field>
+          <button mat-raised-button class="btn">
+            <mat-icon class="material-icons-two-tone">search</mat-icon>
+          </button>
+        </form>
+      </div>
+      <div class="col-lg-1 coll-md-1 col-sm-4 col-flag">
+        <span class="flag-icon flag-icon-um"></span>
+      </div>
+      <div class="col-md-1 col-sm-6 col-lg-1 col-focus-border">
+        <div class="row location-content">
+          <div class="col-md-8 col-sm-8 col-lg-8 ">
+            <div class="header-location">
+              <span class="deliver"><small>Hello,Sign In</small></span>
+              <span class="country">Account&Lists</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 col-sm-6 col-focus-border col-lg-1">
+        <div class="row location-content">
+          <div class="col-md-8 col-sm-8 col-lg-8 ">
+            <div class="header-location">
+              <span class="deliver"><small>Returns</small></span>
+              <span class="country">& Orders</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 col-focus-border col-sm-6 col-lg-1">
+        <div class="row location-content">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-icon">
+            <span>
+              <mat-icon style="height: 5%;">
+                add_shopping_cart
+              </mat-icon>
+            </span>
+          </div>
+          <div class="col-md-8 col-sm-8 col-lg-8 ">
+            <div class="header-location">
+              <span class="cart">Cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <nav class="navbar navbar-expand-lg nav-bg">
+    <a class="navbar-brand" href="#"><span><mat-icon>menu</mat-icon></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Today's Deal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Customer Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gift Cards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sell</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+

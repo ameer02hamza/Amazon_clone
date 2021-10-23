@@ -1,0 +1,80 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+::ng-deep .sr-only {
+    display: none;
+ }
+
+ ::ng-deep .carousel-control-next-icon{
+    margin-bottom: 243px;
+    margin-left: 126px;
+    background-color: black;
+ }
+ ::ng-deep .carousel-control-prev-icon{
+    margin-bottom: 243px;
+    margin-right: 126px;
+    background-color: black;
+ }
+ .col-card{
+    width:24.333%;
+ }
+ .card{
+    //  background-color: black;
+     width: 300px;
+     height: 300px;
+     bottom: 291px;
+     top: -417px;
+     margin-left: 28px;
+     .card-action{
+         background-color: white;
+         position: relative;
+         bottom: 16px;
+         width: 298px;
+         margin-left: 0px;
+         margin-right: 0px;
+         right: 16px;
+     }
+     img{
+         height: 239.033;
+     }
+ }
+ .card-row{
+    margin-top: 5%;
+ }
+.single-card{
+    margin-top: -366px;
+    height: 259px;
+    width: 95%;
+    margin-left: 2%;
+    img{
+        width: 100% !important;
+        height: 259px;
+        margin-left: 10%;
+    }
+}
+
+.card-content{
+    width: 20%;
+    img{
+        width: 58% !important;
+        height: 79%;
+    }
+}
+
+.card-forward{
+    left: 1210px;
+    bottom: 150px;
+}
+.card-back{
+    bottom: 150px;
+    right: 7px;
+}
+
+@media (max-width:1255px){
+    .col-card{
+       width: auto !important;
+
+    }
+}
